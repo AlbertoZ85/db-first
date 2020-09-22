@@ -1,0 +1,17 @@
+CONCESSIONARIO AUTO USATE
+
+ID                          numero incrementale     PRIMARY KEY, AUTO_INCREMENT, UNIQUE
+Marca                       stringa                 VARCHAR(20), NOTNULL
+Modello                     stringa                 VARCHAR(20), NOTNULL
+Prezzo                      numero                  FLOAT(8,2), NOTNULL
+Chilometraggio              numero                  SMALLINT
+Immatricolazione            data                    TIMESTAMP
+Cilindrata                  numero                  SMALLINT
+Alimentazione               stringa                 VARCHAR(10), NOTNULL
+Cambio                      stringa                 VARCHAR(10), NOTNULL
+Colore                      stringa                 VARCHAR(10) 
+Porte                       numero                  TINYINT, NOTNULL
+Disponibilità               booleano                TINYINT, NOTNULL
+#_proprietari               numero                  TINYINT
+#_tagliandi_certificati     numero                  TINYINT
+Foto                        stringa                 VARCHAR(), DEFAULT(...)
